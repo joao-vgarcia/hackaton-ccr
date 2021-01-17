@@ -1,0 +1,12 @@
+.text-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.icone {
+  width: 6%;
+  height: 6%;
+}
+

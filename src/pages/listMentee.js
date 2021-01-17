@@ -6,6 +6,9 @@ import negocios from "../assets/bill.svg";
 import saude from "../assets/cardiogram.svg";
 import outras from "../assets/sound-waves.svg";
 import "./fields.css";
+import userMentor from "../assets/user.svg";
+import mentor from "../assets/profileMentor.JPG";
+import star from "../assets/star.svg";
 import React from "react";
 
 
@@ -13,6 +16,27 @@ function Mentees() {
   return (
     <>
       <img src={ponte} alt="ponte" className="imagem" />
+      <div className="text-container">
+        <img
+          src={mentor}
+          alt="foto de uma mulher"
+          width="15%"
+          height="15%"
+        />
+      </div>
+      <div className="text-container">
+        <h2 className="nomePerfil">Marisa Kearns</h2>
+      </div>
+      <div className="text-container">
+        <img src={userMentor} alt="icone" className="icone" />
+        <img src={saude} alt="icone" className="icone" />
+        <img src={star} alt="icone" className="icone" />
+      </div>
+      <div className="text-container">
+        <a href="/mentor"><h5>Perfil Mentor</h5></a>
+        <h5>Área Saúde</h5>
+        <a href="/listaGafanhotos"><h5>30 mentorias</h5></a>
+      </div>
       <h2 className="areas">Lista de Gafanhotos</h2>
       <table class="table">
         <thead>

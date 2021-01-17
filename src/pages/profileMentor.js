@@ -28,9 +28,9 @@ function ProfileMentor() {
         <img src={star} alt="icone" className="icone" />
       </div>
       <div className="text-container">
-        <h5>Mentor</h5>
-        <h5>Saúde</h5>
-        <h5>30</h5>
+        <a href="/profileMentor"><h5>Perfil Mentor</h5></a>
+        <h5>Área Saúde</h5>
+        <a href="/listaGafanhotos"><h5>30 mentorias</h5></a>
       </div>
         <div className="nomePerfil">
           <h2>Recomendações</h2>
@@ -41,14 +41,6 @@ function ProfileMentor() {
           alt="icone"
           width="12%"
           height="12%"
-        />
-        <h4>
-          Emerged into consciousness science worldlets at the edge of forever kindling the energy hidden in matter rogue. Courage of our questions two ghostly white figures in coveralls and helmets are softly dancing dispassionate extraterrestrial observer tesseract concept of the number one tesseract. Another world as a patch of light extraordinary claims require extraordinary evidence inconspicuous motes of rock and gas extraordinary claims require extraordinary evidence brain is the seed of intelligence and billions upon billions upon billions upon billions upon billions upon billions upon billions.
-        </h4>
-        <img
-          src={mentee}
-          alt="icone"
-          className="icone"
         />
         <h4>
           Emerged into consciousness science worldlets at the edge of forever kindling the energy hidden in matter rogue. Courage of our questions two ghostly white figures in coveralls and helmets are softly dancing dispassionate extraterrestrial observer tesseract concept of the number one tesseract. Another world as a patch of light extraordinary claims require extraordinary evidence inconspicuous motes of rock and gas extraordinary claims require extraordinary evidence brain is the seed of intelligence and billions upon billions upon billions upon billions upon billions upon billions upon billions.

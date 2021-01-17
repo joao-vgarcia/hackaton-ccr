@@ -12,28 +12,39 @@ function Fields() {
     <div>
       <img src={ponte} alt="ponte" className="imagem" />
       <h2 className="areas">Selecione a área para ganhar experiência</h2>
-      <a href="/">
+
       <div className="text-container">
-        <img src={tecnologia} alt="cpu" className="icone" />     
-        <img src={engenharia} alt="foguete" className="icone" />      
-        <img src={entretenimento} alt="rolo de filme" className="icone" />      
+        <img src={tecnologia} alt="cpu" className="icone" />
+        <img src={engenharia} alt="foguete" className="icone" />
+        <img src={entretenimento} alt="rolo de filme" className="icone" />
       </div>
       <div className="text-container">
-        <h3>Tecnologia</h3>
-        <h3>Engenharia</h3>
-        <h3>Entretenimento</h3>
+        <a href="/mentoresArea">
+          <h3>Tecnologia</h3>
+        </a>
+        <a href="/mentoresArea">
+          <h3>Engenharia</h3>
+        </a>
+        <a href="/mentoresArea">
+          <h3>Entretenimento</h3>
+        </a>
       </div>
       <div className="text-container">
         <img src={negocios} alt="papel e dinheiro" className="icone" />
         <img src={saude} alt="coração com pulso" className="icone" />
-        <img src={outras} alt="ondas" className="icone" /> 
+        <img src={outras} alt="ondas" className="icone" />
       </div>
       <div className="text-container">
-        <h3>Negócios</h3>
-        <h3>Saúde</h3>
-        <h3>Outras</h3>  
+        <a href="/mentoresArea">
+          <h3>Negócios</h3>
+        </a>
+        <a href="/mentoresArea">
+          <h3>Saúde</h3>
+        </a>
+        <a href="/mentoresArea">
+          <h3>Outras</h3>
+        </a>
       </div>
-      </a>
     </div>
   );
 }

@@ -33,7 +33,7 @@
 }
 
 a {
-  /* pointer-events: none; */
+  /* pointer-events: stroke ; */
   cursor: default;
   text-decoration: none;
   color: black;
@@ -43,10 +43,12 @@ a:link {
 }
 
 a:visited {
-  color: #FF9212;
+  text-decoration: none;
 } 
 
 a:hover {
   color: #FF9212;
+  text-decoration: none;
 }
+
 
