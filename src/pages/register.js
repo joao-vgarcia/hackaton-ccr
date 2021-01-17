@@ -1,22 +1,29 @@
 import ponte from '../assets/ponte.png';
 import './register.css';
 
-function Register () {
-  return(
-    <div>
-      <img src={ponte} alt="ponte"className="imagem"/>
+function Register() {
+  return (
+    <div className="bigContaier">
+      <img src={ponte} alt="ponte" className="imagem" />
       <h1 className="cadastro">Cadastro</h1>
-      <div>
-        <label className="nomes">Nome</label>
-        <input placeholder="Nome" required="true"/> 
-      </div>
-      <div>
-        <label>Email</label>
-        <input placeholder="Email"/> 
-      </div>
-      <div>
-        <label>Idade</label>
-        <input placeholder="idade"/> 
+      <div className="container">
+        <div className="inputContainer">
+        <label className="labels">Nome:</label>
+          <input placeholder="Nome" required="true" className="inputs" />
+        </div>
+        <div className="inputContainer">
+        <label className="labels">Email:</label>
+          <input placeholder="Email" className="inputs" />
+        </div>
+        <div className="inputContainer">
+        <label className="labels">Idade:</label>
+          <input placeholder="idade" className="inputs" />
+        </div>
+        <div className="inputContainer">
+          <label className="labels">Sobre:</label>
+          <textarea placeholder="idade" className="inputs" />
+        </div>
+        <button>Enviar</button>
       </div>
     </div>
   )
