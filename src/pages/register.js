@@ -23,7 +23,7 @@ function Register() {
           <label className="labels">Sobre:</label>
           <textarea placeholder="idade" className="inputs" />
         </div>
-        
+        <button className="botao">Enviar</button>
       </div>
     </div>
   )
