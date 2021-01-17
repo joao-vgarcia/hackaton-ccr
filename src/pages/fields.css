@@ -13,10 +13,36 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .icone {
   width: 15%;
   height: 15%;
 }
 
+.text-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
 
+/* a {
+  cursor: default;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
 
