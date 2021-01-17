@@ -1,5 +1,6 @@
 import Register from "./pages/register";
 import Fields from "./pages/fields";
+import Mentors from "./pages/listMentors"
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -13,6 +14,9 @@ function App() {
           </Route>
           <Route path="/areas">
             <Fields />
+          </Route>
+          <Route path="/listaMentores">
+            <Mentors />
           </Route>
         </Switch>
       </Router>

@@ -31,15 +31,6 @@
   flex-direction: row;
 }
 
-/* a {
-  cursor: default;
-  text-decoration: none;
-  color: black;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-} */
-
 a {
   cursor: default;
   text-decoration: none;
