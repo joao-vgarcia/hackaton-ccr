@@ -13,7 +13,7 @@ function Fields() {
       <img src={ponte} alt="ponte" className="imagem" />
       <h2 className="areas">Selecione a área para ganhar experiência</h2>
       <a href="/">
-      <div className="container">
+      <div className="text-container">
         <img src={tecnologia} alt="cpu" className="icone" />     
         <img src={engenharia} alt="foguete" className="icone" />      
         <img src={entretenimento} alt="rolo de filme" className="icone" />      
@@ -23,7 +23,7 @@ function Fields() {
         <h3>Engenharia</h3>
         <h3>Entretenimento</h3>
       </div>
-      <div className="container">
+      <div className="text-container">
         <img src={negocios} alt="papel e dinheiro" className="icone" />
         <img src={saude} alt="coração com pulso" className="icone" />
         <img src={outras} alt="ondas" className="icone" /> 
