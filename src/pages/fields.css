@@ -1,0 +1,39 @@
+
+.imagem{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.areas{
+  font-size: 36px;
+  line-height: 57px;
+  color: #000000;
+  font-family: 'Saira Condensed', sans-serif;
+  margin: 30px 41px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.icone {
+  width: 15%;
+  height: 15%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
